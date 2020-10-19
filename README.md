@@ -1,14 +1,13 @@
 # url-shortening-rest-service
-Welcome to Url shortening service
-The project url is http://localhost:8989/ 
-To Run this project please create a mysql database name <b>urlshorteningdb</b> 
-'create database urlshorteningdb'
-You also need to change the username and also the password in application.properties file
-/ or /home or /index -> for the readme or intructions page
-/addUrl -> for add url as url and shortUrl 
-/addUrls -> for add list of urls with same structure as like url and shortUrl 
-/getUrls -> get all urls as list 
-/getUrlById/{id} -> get specific url by <b> id </b> which is auto generated 
-/getShortUrlByUrl/{url} -> get shortUrl by sending url 
-/deleteUrl/{id} delete url by id 
-/updateUrl -> just need to pass url obj and it will find the record and update it
+" Welcome to Url shortening service <br> " + " The project url is http://localhost:8989/ <br>"
+				+ " To Run this project please create a mysql database name <b>urlshorteningdb</b> <br>"
+				+ " 'create database urlshorteningdb' <br>"
+				+ " You also need to change the username and also the password in application.properties file <br>"
+				+ " / or /home or /index -> for the readme or intructions page <br>"
+				+ " /addUrl -> for add url as url and shortUrl <br>"
+				+ " /addUrls -> for add list of urls with same structure as like url and shortUrl <br>"
+				+ " /getUrls -> get all urls as list <br>"
+				+ " /getUrlById/{id} -> get specific url by <b> id </b> which is auto generated <br>"
+				+ " /getShortUrlByUrl/{url} -> get shortUrl by sending url <br>"
+				+ " /deleteUrl/{id} delete url by id <br>"
+				+ " /updateUrl -> just need to pass url obj and it will find the record and update it. <br>"
